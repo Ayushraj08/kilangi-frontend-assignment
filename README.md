@@ -132,43 +132,44 @@ python -m http.server
 ```
 http://localhost:8000
 ```
-🧠 Key Learnings & Highlights
+## 🧠 Key Learnings & Highlights
 
-Built a scalable CSS system, not page-specific hacks
+- Built a **scalable CSS system**, avoiding page-specific hacks  
+- Maintained a **clean separation of concerns** between structure, style, and behavior  
+- Focused on **real production behavior**, not just visual output  
+- Prioritized **clarity, readability, and long-term maintainability**  
+- Ensured responsive and accessible UI patterns across devices  
 
-Maintained clean separation of concerns
+---
 
-Focused on real production behavior, not just visuals
+## 📌 Assignment Status
 
-Prioritized clarity, readability, and maintainability
+- ✅ All required sections implemented  
+- ✅ Responsive behavior verified across screen sizes  
+- ✅ Clean, modular code structure  
+- ✅ Ready for review and production handoff  
 
-📌 Assignment Status
+---
 
-✅ All required sections implemented
-✅ Responsive behavior verified
-✅ Clean code structure
-✅ Ready for review & production handoff
+## 👨‍💻 About Me
 
-👨‍💻 About Me
+**Ayush Raj**  
+Frontend Developer | UI-Focused | Strong Fundamentals  
 
-Ayush Raj
-Frontend Developer | UI-Focused | Strong Fundamentals
+- Passionate about building **clean, intuitive UI & UX**  
+- Strong proficiency in **HTML, CSS, and JavaScript**  
+- Comfortable converting designs into **scalable, production-ready interfaces**  
+- Always focused on **user experience and maintainable code**, not shortcuts  
 
-Passionate about clean UI & UX
+🔗 **GitHub:** [https://github.com/Ayushraj08](https://github.com/Ayushraj08)
 
-Strong in HTML, CSS, JavaScript
+---
 
-Comfortable converting designs into scalable interfaces
+## 📬 Final Note
 
-Always focused on user experience, not shortcuts
+This assignment reflects how I approach real-world frontend development —  
+with **clarity, discipline, and strong attention to user experience**.
 
-GitHub:
-https://github.com/Ayushraj08
+Thank you for the opportunity to showcase my skills.  
+I’d be happy to discuss this project further.
 
-📬 Final Note
-
-This assignment reflects how I approach real frontend work —
-with clarity, discipline, and attention to user experience.
-
-Thank you for the opportunity to showcase my skills.
-I’d love to discuss this project further.
