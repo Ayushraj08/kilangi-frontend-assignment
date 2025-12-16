@@ -1,5 +1,5 @@
 # Kilangi – Luxury Jewellery Homepage  
-**Frontend Assignment Submission**
+**Frontend Assignment Submission: https://ayushraj08.github.io/kilangi-frontend-assignment/**
 
 ---
 
@@ -172,4 +172,5 @@ with **clarity, discipline, and strong attention to user experience**.
 
 Thank you for the opportunity to showcase my skills.  
 I’d be happy to discuss this project further.
+
 
