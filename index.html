@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Kilangi | Luxury Jewellery</title>
+
+  <!-- Meta -->
+  <meta
+    name="description"
+    content="Kilangi is a premium jewellery brand offering timeless gold and silver designs crafted with ethical sourcing and modern elegance."
+  />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container">
+
+    <div class="logo">
+      <strong>Kilangi</strong>
+    </div>
+
+    <!-- DESKTOP NAV -->
+    <nav class="nav-menu" aria-label="Primary navigation">
+      <a href="#">All Jewellery</a>
+      <a href="#">Gold</a>
+      <a href="#">Silver</a>
+      <a href="#">Gifting</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="search-box">
+      <input
+        type="search"
+        placeholder="Search for Earrings.."
+        aria-label="Search jewellery"
+      />
+    </div>
+
+    <div class="social-icons">
+      <a href="#" aria-label="Instagram" class="social-icon">
+        <img src="assets/icons/instagram.png" alt="Instagram" />
+      </a>
+      <a href="#" aria-label="Facebook" class="social-icon">
+        <img src="assets/icons/facebook.png" alt="Facebook" />
+      </a>
+    </div>
+
+    <!-- MOBILE MENU TOGGLE -->
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+  </div>
+
+  <!-- ✅ MOBILE DROPDOWN (OPTION 1) -->
+  <div class="mobile-dropdown" aria-hidden="true">
+
+    <nav>
+      <a href="#">All Jewellery</a>
+      <a href="#">Gold</a>
+      <a href="#">Silver</a>
+      <a href="#">Gifting</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="mobile-social">
+      <a href="#"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+    </div>
+
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+
+      <div class="hero-content">
+        <p class="eyebrow">New Season</p>
+        <h1>Radiant pieces crafted for luminous moments</h1>
+        <p>
+          Discover artisanal fine jewellery designed in-house, responsibly
+          sourced, and made to celebrate every chapter.
+        </p>
+
+        <button class="btn-primary hero-cta">
+          Explore Signature Edit
+        </button>
+
+        <ul class="hero-features">
+          <li>Certified recycled gold</li>
+          <li>Conflict-free diamonds</li>
+          <li>Free worldwide shipping</li>
+          <li>Lifetime polishing</li>
+        </ul>
+      </div>
+
+      <div class="hero-media">
+        <img
+          src="assets/images/hero.png"
+          alt="Luxury gold jewellery worn by a model"
+        />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BESTSELLERS -->
+  <section class="bestsellers">
+    <div class="container">
+
+      <header class="section-header">
+        <h2 class="section-title">Bestsellers</h2>
+      </header>
+
+      <div class="category-tabs">
+        <button class="active">All</button>
+        <button>Necklaces</button>
+        <button>Rings</button>
+        <button>Earrings</button>
+        <button>Bracelets</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="assets/images/product-1.png" alt="Twisted petal gold ring" />
+          <h3>Twisted Petal Gold Ring</h3>
+          <p class="price">₹79,904 <del>₹99,904</del></p>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/product-2.png" alt="Celeste drop earrings" />
+          <h3>Celeste Drop Earrings</h3>
+          <p class="price">₹45,900 <del>₹59,900</del></p>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/product-3.png" alt="Aurora tennis bracelet" />
+          <h3>Aurora Tennis Bracelet</h3>
+          <p class="price">₹1,29,000 <del>₹1,59,000</del></p>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/images/product-4.png" alt="Solstice gold pendant" />
+          <h3>Solstice Gold Pendant</h3>
+          <p class="price">₹68,500 <del>₹84,000</del></p>
+        </article>
+      </div>
+
+      <div class="section-cta">
+        <button class="btn-secondary">Shop Bestsellers</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+    <div class="container">
+      <h2 class="section-title">Explore Our Collection</h2>
+
+      <div class="category-grid">
+        <div class="category-card"><img src="assets/images/ring-category.png"><span>Rings</span></div>
+        <div class="category-card"><img src="assets/images/earrings-category.png"><span>Earrings</span></div>
+        <div class="category-card"><img src="assets/images/pendants-category.png"><span>Pendants</span></div>
+        <div class="category-card"><img src="assets/images/bracelets-category.png"><span>Bracelets</span></div>
+        <div class="category-card"><img src="assets/images/necklaces-category.png"><span>Necklaces</span></div>
+        <div class="category-card"><img src="assets/images/bangles-category.png"><span>Bangles</span></div>
+        <div class="category-card"><img src="assets/images/accessories-category.png"><span>Accessories</span></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Kilangi Jewellery</h4>
+      <p>Premium gold and silver jewellery crafted with timeless elegance and ethical sourcing.</p>
+    </div>
+    <div>
+      <h4>Our Collection</h4>
+      <a href="#">Rings</a><br />
+      <a href="#">Earrings</a><br />
+      <a href="#">Bracelets</a>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#">About Us</a><br />
+      <a href="#">Contact</a><br />
+      <a href="#">Gifting</a>
+    </div>
+    <div>
+      <h4>Policies</h4>
+      <a href="#">Privacy Policy</a><br />
+      <a href="#">Refund Policy</a><br />
+      <a href="#">Shipping Policy</a>
+    </div>
+  </div>
+
+  <p style="text-align:center; margin-top:2rem;">© 2025 Kilangi</p>
+</footer>
+
+<!-- JS -->
+<script src="js/main.js"></script>
+<script src="js/interactions.js"></script>
+
+</body>
+</html>

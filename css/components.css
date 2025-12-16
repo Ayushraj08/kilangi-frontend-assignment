@@ -1,0 +1,227 @@
+/* =========================
+   BUTTONS
+   ========================= */
+   .btn-primary {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    border-radius: var(--radius-sm);
+  }
+  
+  .btn-secondary {
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: var(--space-sm) var(--space-xl);
+    font-size: var(--text-sm);
+    cursor: pointer;
+  }
+  
+  /* =========================
+     SECTION HEADERS
+     ========================= */
+  .section-title {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-md);
+  }
+  
+  .section-subtitle {
+    max-width: 600px;
+    margin-bottom: var(--space-xl);
+  }
+  
+  /* =========================
+     CATEGORY TABS
+     ========================= */
+  .category-tabs button {
+    font-size: var(--text-sm);
+    color: var(--color-secondary);
+  }
+  
+  .category-tabs button.active {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    border-color: var(--color-primary);
+  }
+  
+  /* =========================
+     HERO MEDIA
+     ========================= */
+  .hero-media img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+  }
+  
+  /* =========================
+     HERO FEATURES
+     ========================= */
+  .hero-features li {
+    font-size: var(--text-sm);
+    line-height: 1.4;
+  }
+  
+  /* =========================
+     PRODUCT CARD
+     ========================= */
+  .product-card {
+    background-color: var(--color-background);
+  }
+  
+  .product-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+  }
+  
+  .product-card h3 {
+    font-size: var(--text-sm);
+    font-family: var(--font-body);
+  }
+  
+  .product-card .price {
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+  }
+  
+  .product-card .price del {
+    opacity: 0.6;
+  }
+  
+  /* =========================
+     CATEGORY CARDS
+     ========================= */
+  .category-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .category-card span {
+    font-size: var(--text-sm);
+    font-weight: 500;
+  }
+  
+  /* =========================
+     TESTIMONIALS
+     ========================= */
+  .testimonial-card {
+    background-color: var(--color-surface);
+    padding: var(--space-lg);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    line-height: 1.6;
+  }
+  
+  /* =========================
+     FOOTER
+     ========================= */
+  .site-footer {
+    background-color: var(--color-footer-bg);
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .site-footer h4 {
+    color: #ffffff;
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-sm);
+  }
+  
+  .site-footer p {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+  }
+  
+  .site-footer a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* =========================
+     HEADER SOCIAL ICONS
+     ========================= */
+  .social-icons {
+    display: flex;
+    gap: var(--space-md);
+    align-items: center;
+  }
+  
+  .social-icon img {
+    width: 18px;
+    height: 18px;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+  }
+  
+  .social-icon img:hover {
+    opacity: 1;
+  }
+  
+  /* =========================
+     MOBILE MENU TOGGLE
+     ========================= */
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+  
+  /* =========================
+     MOBILE DROPDOWN (OPTION 1)
+     ========================= */
+  .mobile-dropdown {
+    display: none;
+    width: 100%;
+    background-color: #0f2f2d;
+    padding: var(--space-lg) var(--space-xl);
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  .mobile-dropdown.open {
+    display: block;
+  }
+  
+  .mobile-dropdown nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  
+  .mobile-dropdown nav a {
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .mobile-dropdown nav a:hover {
+    opacity: 0.85;
+  }
+  
+  /* =========================
+     MOBILE SOCIAL ICONS
+     ========================= */
+  .mobile-social {
+    display: flex;
+    gap: var(--space-lg);
+    margin-top: var(--space-xl);
+  }
+  
+  .mobile-social img {
+    width: 22px;
+    height: 22px;
+  }
+  
